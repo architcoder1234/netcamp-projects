@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="139dp"
+        android:layout_height="62dp"
+        android:text="Light: 0 lx"
+        android:textSize="25dp" />
+
+</LinearLayout>

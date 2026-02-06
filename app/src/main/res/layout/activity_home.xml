@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/gradient">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:textColor="@color/black"
+            />
+
+        <!-- Calculator -->
+        <Button
+            android:id="@+id/btnCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+
+            android:background="@drawable/button_gradient"
+            />
+
+        <!-- Music Player -->
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Music Player"
+
+            android:background="@drawable/button_gradient"
+
+            android:layout_marginTop="10dp" />
+
+        <!-- Camera -->
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+
+            android:background="@drawable/button_gradient"
+
+            android:layout_marginTop="10dp" />
+
+        <!-- Sensors & Tools -->
+        <Button
+            android:id="@+id/btnTools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensors &amp; Tools"
+
+            android:background="@drawable/button_gradient"
+
+            android:layout_marginTop="10dp" />
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+
+            android:background="@drawable/button_gradient"
+
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
